@@ -65,27 +65,15 @@
 
     <build>
         <plugins>
+            <!--要写在具体模块中，不要写在父模块中-->
             <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>jib-maven-plugin</artifactId>
-                <version>1.5.1</version>
-                <configuration>
-                    <from>
-                        <image>openjdk:8u222</image>
-                    </from>
-                    <to>
-                        <image>registry.cn-hangzhou.aliyuncs.com/zk-k8s/hello-java</image>
-                        <auth>
-                            <username>263391250@qq.com</username>
-                            <password>zkwin123</password>
-                        </auth>
-                    </to>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.2.RELEASE</version>
                 <executions>
                     <execution>
-                        <phase>package</phase>
                         <goals>
-                            <goal>build</goal>
+                            <goal>repackage</goal><!--可以把依赖的包都打包到生成的Jar包中-->
                         </goals>
                     </execution>
                 </executions>

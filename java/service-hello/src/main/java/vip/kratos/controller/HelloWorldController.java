@@ -21,7 +21,7 @@ public class HelloWorldController {
     public String index() throws IOException {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(String.format("http://localhost%s:9090", !StringUtils.isEmpty(domain) ? ("." + domain) : ""))
+                .baseUrl(String.format("http://net%s:9090", !StringUtils.isEmpty(domain) ? ("." + domain) : ""))
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00bfda33-4f78-49eb-9dd4-4481b8185562" name="Default Changelist" comment="" />
+    <list default="true" id="00bfda33-4f78-49eb-9dd4-4481b8185562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-hello.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vip/kratos/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vip/kratos/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vip/kratos/controller/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vip/kratos/controller/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/47df52059df4a4d036d4dc17481668d93083bf66f6be7d5acee5de05fc736ad6/511ead7ec7742a48065a595293de736227465245f56482a7aa5097b5a972bb19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/89b5c7f7fbfa63b5fd33698f14d9b16e0fbef30a0e0332f53bc9e9d028a126da/bd85394ee8b90009f8d893fb49df625405ecef0d9edd14197111e2df44d49dba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/layers/ae169add1bd8c436a90608f634d06e9a848d9894941a34dee203b9a233020c8f/38cf61924ba696dae9d38df89d727e3b7e127b3874cdab8e01c58e871e9763db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/0892bb833f136058697e53d371420d0c47f59cd2689623f81ce05c3bcdcbcdae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/25aacaec9e8c32e9802cdd7487d661d5449c33396b0dc48bb781be9682b7f653" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/7ea8346b9eff79304196a3078d6858ea73116d52b8690f983f632d4a9b4c43b8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/d68f3e1e14f4ec12e678f0c416294d6e2d3947cf8b29a57c60600d0334a207d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/e6bf6c988947f07ebd35d7bbed45fe3bac127d6d89e21b046f741dcf5cf35530" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jib-cache/selectors/f0fe8008469195c37b879913c957a3aec5f7a22f1382939f10f3b9321b5b6d2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/service-hello-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/service-hello-1.0.jar" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,14 +47,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1QQF67fEJ8gvb7uafHCVv5nMqhs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -65,6 +94,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,10 +115,22 @@
       <option name="presentableId" value="Default" />
       <updated>1567694734667</updated>
       <workItem from="1567694735876" duration="4530000" />
+      <workItem from="1567732803377" duration="2981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
